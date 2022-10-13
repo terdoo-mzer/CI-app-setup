@@ -71,6 +71,7 @@
 <body>
     <div class="wrap">
         <h1>404 - File Not Found</h1>
+        <a href="/"> Go to home Page</a>
 
         <p>
             <?php if (ENVIRONMENT !== 'production') : ?>
