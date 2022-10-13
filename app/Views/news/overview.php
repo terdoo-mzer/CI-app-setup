@@ -10,24 +10,13 @@
 }
 
 
-body {
-  color: #272727;
-  font-family: 'Quicksand', serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-
-}
 
 a {
     text-decoration: none;
     color: #fff;
 }
 
-.main{
-  max-width: 1200px;
 
-}
 
 h1 {
     font-size: 24px;
@@ -123,7 +112,7 @@ img {
 </style>
 
 <div class="main">
-<h2><?= esc($title) ?></h2>
+<!-- <h2><?= esc($title) ?></h2> -->
 
 <?php if (! empty($news) && is_array($news)): ?>
     <ul class="cards">

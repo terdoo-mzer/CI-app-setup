@@ -64,6 +64,12 @@
             float: left;
             height: 44px;
             padding: .4rem .5rem;
+            font-size: 25px;
+           
+        }
+
+        header .logo a {
+            color: rgba(221, 72, 20, .8) !important;
         }
         header .menu-toggle {
             display: none;
@@ -197,7 +203,7 @@
         <ul>
             <li class="logo">
                 <a href="/home">
-                  <h2>The Bloggr</h2>
+                  The Bloggr
                 </a>
             </li>
             <li class="menu-toggle">
@@ -207,7 +213,7 @@
             <li class="menu-item hidden"><a href="/about">About</a>
             </li>
             <li class="menu-item hidden"><a href="/news" >News</a></li>
-            <li class="menu-item hidden"><a  href="/news/create">Create News</a> </li>
+            <li class="menu-item hidden"><a  href="/news/create">Add News</a> </li>
         </ul>
     </div>
 
@@ -223,4 +229,4 @@
         <!-- This php code added to the header tag injects data dynamically 
                 from the Pages Controller
           -->
-    <h1><?= esc($title) ?></h1>
+   <!-- <h1><?= esc($title) ?></h1> -->

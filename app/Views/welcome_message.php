@@ -70,7 +70,11 @@
             height: 44px;
             padding: .4rem .5rem;
             font-size: 25px;
-            color: red !important;
+           
+        }
+
+        header .logo a {
+            color: rgba(221, 72, 20, .8) !important;
         }
         header .menu-toggle {
             display: none;
@@ -212,17 +216,9 @@
             <li class="menu-item hidden"><a href="/about">About</a>
             </li>
             <li class="menu-item hidden"><a href="/news" >News</a></li>
-            <li class="menu-item hidden"><a  href="/news/create" target="_blank">Create News</a> </li>
+            <li class="menu-item hidden"><a  href="/news/create">Add News</a> </li>
         </ul>
     </div>
-
-    <!-- <div class="heroe">
-
-        <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
-
-        <h2>The small framework with powerful features</h2>
-
-    </div> -->
 
 </header>
 
@@ -230,26 +226,19 @@
 
 <section>
 
-    <h1>About this page</h1>
+    <h1>Welcome to Bloggr!</h1>
 
-    <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+    <p>Your number one blog site :).</p>
 
-    <p>If you would like to edit this page you will find it located at:</p>
+    <p>Please feel free to take a tour around</p>
 
-    <pre><code>app/Views/welcome_message.php</code></pre>
 
-    <p>The corresponding controller for this page can be found at:</p>
-
-    <pre><code>app/Controllers/Home.php</code></pre>
 
 </section>
 
 <div class="further">
 
     <section>
-
-        <h1>Go further</h1>
-
         <h2>
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect x='32' y='96' width='64' height='368' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='224' x2='240' y2='224' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='400' x2='240' y2='400' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect x='112' y='160' width='128' height='304' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><rect x='256' y='48' width='96' height='416' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><path d='M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/></svg>
             Learn
@@ -288,18 +277,11 @@
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <footer>
-    <div class="environment">
 
-        <p>Page rendered in {elapsed_time} seconds</p>
-
-        <p>Environment: <?= ENVIRONMENT ?></p>
-
-    </div>
 
     <div class="copyrights">
 
-        <p>&copy; <?= date('Y') ?> CodeIgniter Foundation. CodeIgniter is open source project released under the MIT
-            open source licence.</p>
+        <p>&copy; <?= date('Y') ?> The Bloggr.</p>
 
     </div>
 
