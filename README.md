@@ -1,5 +1,5 @@
 
-Mini Blog Site Built with Codeigniter - php framework
+Codeigniter app setup - php framework
 
 This project runs on http://localhost:8080
 
